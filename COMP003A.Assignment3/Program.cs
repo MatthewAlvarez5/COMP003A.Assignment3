@@ -73,6 +73,9 @@ namespace COMP003A.Assignment3
                 case 7:
                     Console.WriteLine("The day is Saturday, the best day of the week.");
                     break;
+                default:
+                    Console.WriteLine("Invalid Input, try harder next time");
+                    break;
             }
             Console.ForegroundColor = ConsoleColor.Blue;
 
